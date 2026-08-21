@@ -25,7 +25,7 @@ const translations = {
     },
     hero: {
       title: 'Kylian Berkat',
-      subtitle: '\u00C9tudiant en BTS NDRC \u2022 Commerce, relation client et digital',
+      subtitle: '\u00C9tudiant en Bachelor Business International \u2022 Commerce international, relation client et digital',
       quote: 'Un profil motiv\u00E9, polyvalent et tourn\u00E9 vers l\u2019\u00E9volution.',
       description: '\u00C9tudiant \u00E0 Marseille, je d\u00E9veloppe mes comp\u00E9tences en relation client, prospection, communication et outils digitaux.',
       cta1: 'Me d\u00E9couvrir',
@@ -54,11 +54,18 @@ const translations = {
       title: 'Formation',
       items: [
         {
+          period: '2026-2027',
+          degree: 'Bachelor 3 Business International',
+          school: 'INSEC, Marseille',
+          description: 'Commerce international, relation client, n\u00E9gociation interculturelle, prospection et strat\u00E9gie digitale.',
+          status: 'En cours'
+        },
+        {
           period: '2024-2026',
           degree: 'BTS NDRC',
           school: 'Marseille',
           description: 'Relation client, n\u00E9gociation, prospection, fid\u00E9lisation et outils digitaux.',
-          status: 'En cours'
+          status: 'Obtenu'
         },
         {
           period: '2024',
@@ -73,12 +80,28 @@ const translations = {
       title: 'Parcours & Exp\u00E9riences',
       items: [
         {
-          period: 'Janv.-F\u00E9vr. 2026',
-          duration: '3 semaines',
-          role: 'Stagiaire Prospection Digitale / Social Selling',
-          company: 'Groupe Etic / La Provence',
+          period: '2025-2026',
+          duration: '4 mois',
+          role: 'Op\u00E9rateur Multim\u00E9dia',
+          company: 'Groupe Etic / La Provence / LA SEM',
           location: 'Marseille',
-          description: 'Analyse de la pr\u00E9sence de l\u2019auto-\u00E9cole sur les r\u00E9seaux sociaux et proposition d\u2019am\u00E9liorations adapt\u00E9es \u00E0 la cible.'
+          description: 'R\u00E9ception des appels entrants et proposition de solutions adapt\u00E9es aux demandes des clients.'
+        },
+        {
+          period: 'Janv.-F\u00E9vr. 2026',
+          duration: '5 semaines',
+          role: 'Stagiaire Prospection / Social Selling',
+          company: 'AF CONDUITE',
+          location: 'Marseille',
+          description: 'Cr\u00E9ation de contenus multim\u00E9dias percutants et boost de la visibilit\u00E9 d\u2019AF Conduite sur les r\u00E9seaux sociaux.'
+        },
+        {
+          period: '27 avril 2025',
+          duration: '1 journ\u00E9e',
+          role: 'Organisation d\u2019un tournoi de football associatif',
+          company: 'Association ELA',
+          location: 'Marseille',
+          description: 'Organisation du tournoi et d\u2019un show, promotion, sensibilisation et r\u00E9colte de fonds.'
         },
         {
           period: 'Nov.-D\u00E9c. 2025',
@@ -87,14 +110,6 @@ const translations = {
           company: 'O2',
           location: 'Marseille',
           description: 'Prospection t\u00E9l\u00E9phonique et terrain, prise de rendez-vous qualifi\u00E9s et suivi client.'
-        },
-        {
-          period: 'Juil.-Ao\u00FBt 2025',
-          duration: '1 mois',
-          role: 'Agent Service Client',
-          company: 'Groupe Etic / La Provence',
-          location: 'Marseille',
-          description: 'Gestion des appels entrants, r\u00E9clamations, litiges et suivi des dossiers clients.'
         },
         {
           period: '2024',
@@ -217,11 +232,11 @@ const translations = {
       sections: {
         identity: {
           title: 'Identit\u00E9',
-          content: '\u00C9tudiant en BTS NDRC, Kylian Berkat construit un parcours orient\u00E9 vers la relation client, la prospection et la communication digitale.'
+          content: '\u00C9tudiant en Bachelor Business International, Kylian Berkat construit un parcours orient\u00E9 vers la relation client, la prospection et la communication digitale.'
         },
         education: {
           title: 'Formation',
-          content: 'Il poursuit actuellement un BTS NDRC \u00E0 Marseille apr\u00E8s l\u2019obtention d\u2019un baccalaur\u00E9at g\u00E9n\u00E9ral.'
+          content: 'Il poursuit actuellement un Bachelor 3 Business International \u00E0 l\u2019INSEC, Marseille, apr\u00E8s l\u2019obtention d\u2019un BTS NDRC et d\u2019un baccalaur\u00E9at g\u00E9n\u00E9ral.'
         },
         experience: {
           title: 'Parcours',
@@ -258,7 +273,7 @@ const translations = {
     },
     hero: {
       title: 'Kylian Berkat',
-      subtitle: 'BTS NDRC student \u2022 Commerce, customer relations and digital',
+      subtitle: 'Bachelor Business International student \u2022 International commerce, customer relations and digital',
       quote: 'A motivated and versatile profile focused on growth.',
       description: 'Based in Marseille, I develop my skills in customer relations, prospecting, communication and digital tools.',
       cta1: 'Discover',
@@ -286,16 +301,18 @@ const translations = {
     education: {
       title: 'Education',
       items: [
-        { period: '2024-2026', degree: 'BTS NDRC', school: 'Marseille', description: 'Customer relations, negotiation, prospecting and digital tools.', status: 'In progress' },
+        { period: '2026-2027', degree: 'Bachelor 3 Business International', school: 'INSEC, Marseille', description: 'International business, customer relations, intercultural negotiation, prospecting and digital strategy.', status: 'In progress' },
+        { period: '2024-2026', degree: 'BTS NDRC', school: 'Marseille', description: 'Customer relations, negotiation, prospecting and digital tools.', status: 'Completed' },
         { period: '2024', degree: 'General Baccalaureate', school: 'Gignac-la-Nerthe (13)', description: 'Majors: Mathematics, NSI, SES.', status: 'Completed' }
       ]
     },
     experience: {
       title: 'Journey & Experience',
       items: [
-        { period: 'Jan-Feb 2026', duration: '3 weeks', role: 'Digital Prospecting / Social Selling Intern', company: 'Groupe Etic / La Provence', location: 'Marseille', description: 'Social media presence analysis and improvement proposals.' },
+        { period: '2025-2026', duration: '4 months', role: 'Multimedia Operator', company: 'Groupe Etic / La Provence / LA SEM', location: 'Marseille', description: 'Handled incoming calls and proposed solutions tailored to customer requests.' },
+        { period: 'Jan-Feb 2026', duration: '5 weeks', role: 'Prospecting / Social Selling Intern', company: 'AF CONDUITE', location: 'Marseille', description: 'Created eye-catching multimedia content and boosted AF Conduite’s visibility on social media.' },
+        { period: 'April 27, 2025', duration: '1 day', role: 'Organized a charity football tournament', company: 'Association ELA', location: 'Marseille', description: 'Organized the tournament and a show, promotion, awareness-raising and fundraising.' },
         { period: 'Nov-Dec 2025', duration: '5 weeks', role: 'Commercial Prospecting Intern', company: 'O2', location: 'Marseille', description: 'Phone and field prospecting, qualified appointments and client follow-up.' },
-        { period: 'Jul-Aug 2025', duration: '1 month', role: 'Customer Service Agent', company: 'Groupe Etic / La Provence', location: 'Marseille', description: 'Incoming calls, complaints, disputes and client file follow-up.' },
         { period: '2024', duration: 'Internship', role: 'Prospecting Intern', company: 'Patrimoine MS', location: 'Marseille', description: 'Email campaigns, calls, lead detection and commercial reporting.' },
         { period: '2021', duration: 'Internship', role: 'IT Support Intern', company: 'Conseil D\u00E9partemental 13', location: 'Marseille', description: 'PC setup, maintenance and first-level support.' }
       ]
@@ -364,8 +381,8 @@ const translations = {
       toc: { identity: 'Identity', education: 'Education', experience: 'Journey', skills: 'Skills', commitments: 'Commitments', interests: 'Openness' },
       infobox: { status: 'Student', field: 'Commerce, customer relations, digital', location: 'Marseille, France', languages: 'French, English, Spanish' },
       sections: {
-        identity: { title: 'Identity', content: 'BTS NDRC student building a path focused on customer relations, prospecting and digital communication.' },
-        education: { title: 'Education', content: 'Currently studying BTS NDRC after obtaining a general baccalaureate.' },
+        identity: { title: 'Identity', content: 'Bachelor Business International student building a path focused on customer relations, prospecting and digital communication.' },
+        education: { title: 'Education', content: 'Currently studying a Bachelor 3 Business International at INSEC, Marseille, after obtaining a BTS NDRC and a general baccalaureate.' },
         experience: { title: 'Journey', content: 'Experience in prospecting, customer service and IT support.' },
         skills: { title: 'Skills', content: 'Skills in commerce, customer relations, office tools, communication and digital.' },
         commitments: { title: 'Commitments', content: 'Involved in community and solidarity actions.' },
@@ -389,7 +406,7 @@ const translations = {
     },
     hero: {
       title: 'Kylian Berkat',
-      subtitle: 'Estudiante de BTS NDRC \u2022 Comercio, relaci\u00F3n con clientes y digital',
+      subtitle: 'Estudiante de Bachelor Business International \u2022 Comercio internacional, relaci\u00F3n con clientes y digital',
       quote: 'Un perfil motivado, vers\u00E1til y orientado a la evoluci\u00F3n.',
       description: 'Estudiante en Marsella, desarrollo competencias en relaci\u00F3n con clientes, prospecci\u00F3n, comunicaci\u00F3n y herramientas digitales.',
       cta1: 'Descubrir',
@@ -417,16 +434,18 @@ const translations = {
     education: {
       title: 'Formaci\u00F3n',
       items: [
-        { period: '2024-2026', degree: 'BTS NDRC', school: 'Marsella', description: 'Relaci\u00F3n con clientes, negociaci\u00F3n, prospecci\u00F3n y herramientas digitales.', status: 'En curso' },
+        { period: '2026-2027', degree: 'Bachelor 3 Business International', school: 'INSEC, Marsella', description: 'Comercio internacional, relaci\u00F3n con clientes, negociaci\u00F3n intercultural, prospecci\u00F3n y estrategia digital.', status: 'En curso' },
+        { period: '2024-2026', degree: 'BTS NDRC', school: 'Marsella', description: 'Relaci\u00F3n con clientes, negociaci\u00F3n, prospecci\u00F3n y herramientas digitales.', status: 'Obtenido' },
         { period: '2024', degree: 'Bachillerato General', school: 'Gignac-la-Nerthe (13)', description: 'Especialidades: Matem\u00E1ticas, NSI, SES.', status: 'Obtenido' }
       ]
     },
     experience: {
       title: 'Recorrido y experiencia',
       items: [
-        { period: 'Ene-Feb 2026', duration: '3 semanas', role: 'Practicante en prospecci\u00F3n digital / social selling', company: 'Groupe Etic / La Provence', location: 'Marsella', description: 'An\u00E1lisis de presencia en redes sociales y propuestas de mejora.' },
+        { period: '2025-2026', duration: '4 meses', role: 'Operador Multimedia', company: 'Groupe Etic / La Provence / LA SEM', location: 'Marsella', description: 'Recepci\u00F3n de llamadas entrantes y propuesta de soluciones adaptadas a las solicitudes de los clientes.' },
+        { period: 'Ene-Feb 2026', duration: '5 semanas', role: 'Practicante en prospecci\u00F3n / social selling', company: 'AF CONDUITE', location: 'Marsella', description: 'Creaci\u00F3n de contenido multimedia atractivo e impulso de la visibilidad de AF Conduite en redes sociales.' },
+        { period: '27 de abril de 2025', duration: '1 d\u00EDa', role: 'Organizaci\u00F3n de un torneo de f\u00FAtbol solidario', company: 'Asociaci\u00F3n ELA', location: 'Marsella', description: 'Organizaci\u00F3n del torneo y de un show, promoci\u00F3n, sensibilizaci\u00F3n y recaudaci\u00F3n de fondos.' },
         { period: 'Nov-Dic 2025', duration: '5 semanas', role: 'Practicante en prospecci\u00F3n comercial', company: 'O2', location: 'Marsella', description: 'Prospecci\u00F3n telef\u00F3nica y de campo, citas cualificadas y seguimiento.' },
-        { period: 'Jul-Ago 2025', duration: '1 mes', role: 'Agente de servicio al cliente', company: 'Groupe Etic / La Provence', location: 'Marsella', description: 'Llamadas entrantes, reclamaciones, litigios y seguimiento de clientes.' },
         { period: '2024', duration: 'Pr\u00E1ctica', role: 'Practicante en prospecci\u00F3n', company: 'Patrimoine MS', location: 'Marsella', description: 'Emailing, llamadas, leads y reporting comercial.' },
         { period: '2021', duration: 'Pr\u00E1ctica', role: 'Practicante soporte IT', company: 'Conseil D\u00E9partemental 13', location: 'Marsella', description: 'Configuraci\u00F3n de puestos, mantenimiento y soporte.' }
       ]
@@ -495,8 +514,8 @@ const translations = {
       toc: { identity: 'Identidad', education: 'Formaci\u00F3n', experience: 'Recorrido', skills: 'Competencias', commitments: 'Compromisos', interests: 'Apertura' },
       infobox: { status: 'Estudiante', field: 'Comercio, relaci\u00F3n con clientes, digital', location: 'Marsella, Francia', languages: 'Franc\u00E9s, ingl\u00E9s, espa\u00F1ol' },
       sections: {
-        identity: { title: 'Identidad', content: 'Estudiante de BTS NDRC con un recorrido centrado en relaci\u00F3n con clientes, prospecci\u00F3n y comunicaci\u00F3n digital.' },
-        education: { title: 'Formaci\u00F3n', content: 'Actualmente cursa BTS NDRC tras obtener un bachillerato general.' },
+        identity: { title: 'Identidad', content: 'Estudiante de Bachelor Business International con un recorrido centrado en relaci\u00F3n con clientes, prospecci\u00F3n y comunicaci\u00F3n digital.' },
+        education: { title: 'Formaci\u00F3n', content: 'Actualmente cursa un Bachelor 3 Business International en INSEC, Marsella, tras obtener un BTS NDRC y un bachillerato general.' },
         experience: { title: 'Recorrido', content: 'Experiencia en prospecci\u00F3n, servicio al cliente y soporte IT.' },
         skills: { title: 'Competencias', content: 'Competencias en comercio, relaci\u00F3n con clientes, herramientas ofim\u00E1ticas, comunicaci\u00F3n y digital.' },
         commitments: { title: 'Compromisos', content: 'Participaci\u00F3n en acciones solidarias y asociativas.' },

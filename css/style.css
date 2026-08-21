@@ -1411,21 +1411,6 @@ section[data-section].visible,
   box-shadow: 0 8px 24px rgba(59, 130, 246, 0.1);
 }
 
-/* Premiere experience mise en avant */
-.experience__timeline > .experience__card:first-of-type {
-  border: 1px solid var(--blue-400);
-  background: linear-gradient(135deg, var(--white) 0%, rgba(219, 234, 254, 0.3) 100%);
-}
-
-.experience__timeline > .experience__card:first-of-type .experience__duration {
-  background: var(--blue-600);
-  color: var(--white);
-}
-
-.experience__timeline > .experience__card:first-of-type:hover {
-  box-shadow: 0 8px 30px rgba(59, 130, 246, 0.15);
-}
-
 @media (min-width: 768px) {
   .experience__card { margin-left: 3.5rem; }
 }
